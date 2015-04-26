@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+//Objects for dictionaries are set here.
+
 #define PLANET_NAME @"Planet Name"
 #define PLANET_GRAVITY @"Acelleration of Gravity at Surface"
 #define PLANET_DIAMETER @"Planet Size"

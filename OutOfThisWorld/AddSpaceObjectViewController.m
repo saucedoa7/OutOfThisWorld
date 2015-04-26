@@ -7,6 +7,7 @@
 //
 
 #import "AddSpaceObjectViewController.h"
+#import "OutterSpaceTableViewController.h"
 
 @interface AddSpaceObjectViewController ()
 
@@ -16,13 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    UIImage *defaultBackgroundImage = [UIImage imageNamed:@"Orion.jpg"];
+
+    self.view.backgroundColor = [UIColor colorWithPatternImage:defaultBackgroundImage];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 /*
 #pragma mark - Navigation
@@ -34,4 +34,26 @@
 }
 */
 
+- (IBAction)btnCancel:(UIButton *)sender {
+    [self.delegate didCancel];
+}
+
+- (IBAction)btnAdd:(UIButton *)sender {
+
+    SpaceObject *newSpaceObject = [self returnSpaceObject];
+    [self.delegate addSpaceObject:newSpaceObject];
+}
+
+-(SpaceObject *)returnSpaceObject{
+    SpaceObject *spaceObject = [SpaceObject new];
+
+    spaceObject.name = self.txtName.text;
+    spaceObject.nickName = self.txtNickname.text;
+    spaceObject.diameter = [self.txtDiameter.text floatValue];
+    spaceObject.temp = [self.txtTemp.text floatValue];
+    spaceObject.numberOfMoons = [self.txtMoons.text intValue];
+    spaceObject.interstingFact = self.txtFact.text;
+
+    return spaceObject;
+}
 @end

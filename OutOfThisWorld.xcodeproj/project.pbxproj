@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501CFDF11ADC7C490094D050 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 501CFDF01ADC7C490094D050 /* AstronomicalData.m */; };
+		501EB7D31AE49024008931C1 /* SpaceDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501EB7D21AE49024008931C1 /* SpaceDataViewController.m */; };
+		504F109E1ADCABA2002BC014 /* SpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 504F109D1ADCABA2002BC014 /* SpaceObject.m */; };
+		50638AF51ADF3EA40093EF73 /* SpaceImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50638AF41ADF3EA40093EF73 /* SpaceImageViewController.m */; };
 		508044381AD6D334001A264F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 508044371AD6D334001A264F /* main.m */; };
 		5080443B1AD6D334001A264F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5080443A1AD6D334001A264F /* AppDelegate.m */; };
 		5080443E1AD6D334001A264F /* OutOfThisWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5080443C1AD6D334001A264F /* OutOfThisWorld.xcdatamodeld */; };
-		508044411AD6D334001A264F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508044401AD6D334001A264F /* ViewController.m */; };
 		508044441AD6D334001A264F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508044421AD6D334001A264F /* Main.storyboard */; };
 		508044461AD6D334001A264F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508044451AD6D334001A264F /* Images.xcassets */; };
 		508044491AD6D334001A264F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508044471AD6D334001A264F /* LaunchScreen.xib */; };
 		508044551AD6D334001A264F /* OutOfThisWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 508044541AD6D334001A264F /* OutOfThisWorldTests.m */; };
+		508044601AD6D6E2001A264F /* OutterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5080445F1AD6D6E2001A264F /* OutterSpaceTableViewController.m */; };
+		5082385F1ADDFFC800BE6497 /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 508238551ADDFFC800BE6497 /* Earth.jpg */; };
+		508238601ADDFFC800BE6497 /* EinsteinRing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 508238561ADDFFC800BE6497 /* EinsteinRing.jpg */; };
+		508238611ADDFFC800BE6497 /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 508238571ADDFFC800BE6497 /* Jupiter.jpg */; };
+		508238621ADDFFC800BE6497 /* Mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 508238581ADDFFC800BE6497 /* Mars.jpg */; };
+		508238631ADDFFC800BE6497 /* Mercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 508238591ADDFFC800BE6497 /* Mercury.jpg */; };
+		508238641ADDFFC800BE6497 /* Neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5082385A1ADDFFC800BE6497 /* Neptune.jpg */; };
+		508238651ADDFFC800BE6497 /* Orion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5082385B1ADDFFC800BE6497 /* Orion.jpg */; };
+		508238661ADDFFC800BE6497 /* Saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5082385C1ADDFFC800BE6497 /* Saturn.jpg */; };
+		508238671ADDFFC800BE6497 /* Uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5082385D1ADDFFC800BE6497 /* Uranus.jpg */; };
+		508238681ADDFFC800BE6497 /* Venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5082385E1ADDFFC800BE6497 /* Venus.jpg */; };
+		50F570301AE879C1005D4AFC /* AddSpaceObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F5702F1AE879C1005D4AFC /* AddSpaceObjectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +43,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501CFDEF1ADC7C490094D050 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		501CFDF01ADC7C490094D050 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
+		501EB7D11AE49024008931C1 /* SpaceDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceDataViewController.h; sourceTree = "<group>"; };
+		501EB7D21AE49024008931C1 /* SpaceDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceDataViewController.m; sourceTree = "<group>"; };
+		504F109C1ADCABA2002BC014 /* SpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceObject.h; sourceTree = "<group>"; };
+		504F109D1ADCABA2002BC014 /* SpaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceObject.m; sourceTree = "<group>"; };
+		50638AF31ADF3EA40093EF73 /* SpaceImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceImageViewController.h; sourceTree = "<group>"; };
+		50638AF41ADF3EA40093EF73 /* SpaceImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceImageViewController.m; sourceTree = "<group>"; };
 		508044321AD6D334001A264F /* OutOfThisWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutOfThisWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		508044361AD6D334001A264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508044371AD6D334001A264F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		508044391AD6D334001A264F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5080443A1AD6D334001A264F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5080443D1AD6D334001A264F /* OutOfThisWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OutOfThisWorld.xcdatamodel; sourceTree = "<group>"; };
-		5080443F1AD6D334001A264F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		508044401AD6D334001A264F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		508044431AD6D334001A264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		508044451AD6D334001A264F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		508044481AD6D334001A264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5080444E1AD6D334001A264F /* OutOfThisWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutOfThisWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		508044531AD6D334001A264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508044541AD6D334001A264F /* OutOfThisWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutOfThisWorldTests.m; sourceTree = "<group>"; };
+		5080445E1AD6D6E2001A264F /* OutterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutterSpaceTableViewController.h; path = ../OutterSpaceTableViewController.h; sourceTree = "<group>"; };
+		5080445F1AD6D6E2001A264F /* OutterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OutterSpaceTableViewController.m; path = ../OutterSpaceTableViewController.m; sourceTree = "<group>"; };
+		508238551ADDFFC800BE6497 /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		508238561ADDFFC800BE6497 /* EinsteinRing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EinsteinRing.jpg; sourceTree = "<group>"; };
+		508238571ADDFFC800BE6497 /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
+		508238581ADDFFC800BE6497 /* Mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mars.jpg; sourceTree = "<group>"; };
+		508238591ADDFFC800BE6497 /* Mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercury.jpg; sourceTree = "<group>"; };
+		5082385A1ADDFFC800BE6497 /* Neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neptune.jpg; sourceTree = "<group>"; };
+		5082385B1ADDFFC800BE6497 /* Orion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orion.jpg; sourceTree = "<group>"; };
+		5082385C1ADDFFC800BE6497 /* Saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpg; sourceTree = "<group>"; };
+		5082385D1ADDFFC800BE6497 /* Uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uranus.jpg; sourceTree = "<group>"; };
+		5082385E1ADDFFC800BE6497 /* Venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Venus.jpg; sourceTree = "<group>"; };
+		50F5702E1AE879C1005D4AFC /* AddSpaceObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSpaceObjectViewController.h; sourceTree = "<group>"; };
+		50F5702F1AE879C1005D4AFC /* AddSpaceObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSpaceObjectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +97,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		501EB7D41AE49053008931C1 /* Astro Space Data */ = {
+			isa = PBXGroup;
+			children = (
+				501CFDEF1ADC7C490094D050 /* AstronomicalData.h */,
+				501CFDF01ADC7C490094D050 /* AstronomicalData.m */,
+			);
+			name = "Astro Space Data";
+			sourceTree = "<group>";
+		};
+		501EB7D51AE4906A008931C1 /* OutterSpaceTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5080445E1AD6D6E2001A264F /* OutterSpaceTableViewController.h */,
+				5080445F1AD6D6E2001A264F /* OutterSpaceTableViewController.m */,
+			);
+			name = OutterSpaceTableViewController;
+			sourceTree = "<group>";
+		};
+		501EB7D61AE49079008931C1 /* SpaceObject */ = {
+			isa = PBXGroup;
+			children = (
+				504F109C1ADCABA2002BC014 /* SpaceObject.h */,
+				504F109D1ADCABA2002BC014 /* SpaceObject.m */,
+			);
+			name = SpaceObject;
+			sourceTree = "<group>";
+		};
+		501EB7D71AE4908A008931C1 /* SpaceImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50638AF31ADF3EA40093EF73 /* SpaceImageViewController.h */,
+				50638AF41ADF3EA40093EF73 /* SpaceImageViewController.m */,
+			);
+			name = SpaceImageViewController;
+			sourceTree = "<group>";
+		};
+		501EB7D81AE49095008931C1 /* SpaceDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				501EB7D11AE49024008931C1 /* SpaceDataViewController.h */,
+				501EB7D21AE49024008931C1 /* SpaceDataViewController.m */,
+			);
+			name = SpaceDataViewController;
+			sourceTree = "<group>";
+		};
 		508044291AD6D334001A264F = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +163,16 @@
 		508044341AD6D334001A264F /* OutOfThisWorld */ = {
 			isa = PBXGroup;
 			children = (
-				508044391AD6D334001A264F /* AppDelegate.h */,
-				5080443A1AD6D334001A264F /* AppDelegate.m */,
-				5080443F1AD6D334001A264F /* ViewController.h */,
-				508044401AD6D334001A264F /* ViewController.m */,
-				508044421AD6D334001A264F /* Main.storyboard */,
+				501EB7D81AE49095008931C1 /* SpaceDataViewController */,
+				508238691ADDFFDF00BE6497 /* Planet Images */,
+				501EB7D41AE49053008931C1 /* Astro Space Data */,
+				501EB7D51AE4906A008931C1 /* OutterSpaceTableViewController */,
+				501EB7D61AE49079008931C1 /* SpaceObject */,
+				501EB7D71AE4908A008931C1 /* SpaceImageViewController */,
+				50F570311AE879C6005D4AFC /* AddSpaceObjectVC */,
 				508044451AD6D334001A264F /* Images.xcassets */,
 				508044471AD6D334001A264F /* LaunchScreen.xib */,
+				508044421AD6D334001A264F /* Main.storyboard */,
 				5080443C1AD6D334001A264F /* OutOfThisWorld.xcdatamodeld */,
 				508044351AD6D334001A264F /* Supporting Files */,
 			);
@@ -99,6 +182,8 @@
 		508044351AD6D334001A264F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				508044391AD6D334001A264F /* AppDelegate.h */,
+				5080443A1AD6D334001A264F /* AppDelegate.m */,
 				508044361AD6D334001A264F /* Info.plist */,
 				508044371AD6D334001A264F /* main.m */,
 			);
@@ -120,6 +205,33 @@
 				508044531AD6D334001A264F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		508238691ADDFFDF00BE6497 /* Planet Images */ = {
+			isa = PBXGroup;
+			children = (
+				508238551ADDFFC800BE6497 /* Earth.jpg */,
+				508238561ADDFFC800BE6497 /* EinsteinRing.jpg */,
+				508238571ADDFFC800BE6497 /* Jupiter.jpg */,
+				508238581ADDFFC800BE6497 /* Mars.jpg */,
+				508238591ADDFFC800BE6497 /* Mercury.jpg */,
+				5082385A1ADDFFC800BE6497 /* Neptune.jpg */,
+				5082385B1ADDFFC800BE6497 /* Orion.jpg */,
+				5082385C1ADDFFC800BE6497 /* Saturn.jpg */,
+				5082385D1ADDFFC800BE6497 /* Uranus.jpg */,
+				5082385E1ADDFFC800BE6497 /* Venus.jpg */,
+			);
+			name = "Planet Images";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		50F570311AE879C6005D4AFC /* AddSpaceObjectVC */ = {
+			isa = PBXGroup;
+			children = (
+				50F5702E1AE879C1005D4AFC /* AddSpaceObjectViewController.h */,
+				50F5702F1AE879C1005D4AFC /* AddSpaceObjectViewController.m */,
+			);
+			name = AddSpaceObjectVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +283,7 @@
 				TargetAttributes = {
 					508044311AD6D334001A264F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 36MM5W3VDB;
 					};
 					5080444D1AD6D334001A264F = {
 						CreatedOnToolsVersion = 6.2;
@@ -202,9 +315,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5082385F1ADDFFC800BE6497 /* Earth.jpg in Resources */,
+				508238681ADDFFC800BE6497 /* Venus.jpg in Resources */,
+				508238631ADDFFC800BE6497 /* Mercury.jpg in Resources */,
+				508238661ADDFFC800BE6497 /* Saturn.jpg in Resources */,
+				508238671ADDFFC800BE6497 /* Uranus.jpg in Resources */,
 				508044441AD6D334001A264F /* Main.storyboard in Resources */,
+				508238641ADDFFC800BE6497 /* Neptune.jpg in Resources */,
+				508238621ADDFFC800BE6497 /* Mars.jpg in Resources */,
 				508044491AD6D334001A264F /* LaunchScreen.xib in Resources */,
 				508044461AD6D334001A264F /* Images.xcassets in Resources */,
+				508238601ADDFFC800BE6497 /* EinsteinRing.jpg in Resources */,
+				508238611ADDFFC800BE6497 /* Jupiter.jpg in Resources */,
+				508238651ADDFFC800BE6497 /* Orion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +345,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501CFDF11ADC7C490094D050 /* AstronomicalData.m in Sources */,
+				50F570301AE879C1005D4AFC /* AddSpaceObjectViewController.m in Sources */,
+				501EB7D31AE49024008931C1 /* SpaceDataViewController.m in Sources */,
+				504F109E1ADCABA2002BC014 /* SpaceObject.m in Sources */,
+				50638AF51ADF3EA40093EF73 /* SpaceImageViewController.m in Sources */,
 				5080443E1AD6D334001A264F /* OutOfThisWorld.xcdatamodeld in Sources */,
 				5080443B1AD6D334001A264F /* AppDelegate.m in Sources */,
-				508044411AD6D334001A264F /* ViewController.m in Sources */,
+				508044601AD6D6E2001A264F /* OutterSpaceTableViewController.m in Sources */,
 				508044381AD6D334001A264F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +475,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OutOfThisWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +487,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OutOfThisWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +548,7 @@
 				5080445A1AD6D334001A264F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5080445B1AD6D334001A264F /* Build configuration list for PBXNativeTarget "OutOfThisWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +557,7 @@
 				5080445D1AD6D334001A264F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

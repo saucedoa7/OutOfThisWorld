@@ -8,7 +8,7 @@
 
 #import "SpaceImageViewController.h"
 
-@interface SpaceImageViewController ()
+@interface SpaceImageViewController () 
 
 @end
 
@@ -16,14 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.scrollView.delegate = self;
+
+    self.imageView = [[UIImageView alloc] initWithImage: self.spaceObject.spaceImage];
+    self.scrollView.contentSize = self.imageView.frame.size;
+    [self.scrollView addSubview:self.imageView];
+
+    self.scrollView.maximumZoomScale = 10.0;
+    self.scrollView.minimumZoomScale = 0.5;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView{
+    return self.imageView;
 }
-
 /*
 #pragma mark - Navigation
 
